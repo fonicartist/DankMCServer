@@ -1,0 +1,18 @@
+height=0
+width=0
+length=0
+
+while height < 5 do
+  while length < 4 do
+    turtle.place()
+    turtle.forward()
+    length = length + 1
+  end
+  while width < 4 do
+    turtle.place()
+    turtle.forward()
+    width = width + 1
+  end
+  height = height + 1
+end
+

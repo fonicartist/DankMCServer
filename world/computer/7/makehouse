@@ -1,0 +1,20 @@
+height=0
+length=0
+width=0
+
+while height < 5 do
+  while length < 4 do
+    turtle.place()
+    turtle.forward()
+    length = length + 1
+   end
+   turtle.turnLeft()
+   while width < 5 do
+     turtle.place()
+     turtle.forward()
+     width = width + 1
+   end
+   turtle.turnLeft()
+   turtle.up()
+   height = height + 1
+end
